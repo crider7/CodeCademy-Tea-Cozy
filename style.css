@@ -1,0 +1,156 @@
+/* Golbal */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/* Header */
+header{
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+
+.head-container img{
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 10px;
+    float: left;
+}
+
+nav{
+    float: right; 
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+nav li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+nav li a{
+    color: seashell;
+    text-decoration: underline;
+}
+
+nav li a:hover{
+    color: blue;
+    font-weight: bold;
+}
+
+/* Mission */
+.mission-container{
+    height: 700px;
+    max-width: 1200px;
+    background-image: url('images/mission\ background.jpeg');
+    background-position: center;
+    margin: 69px auto auto auto;
+    display: flex;
+    align-items: center;
+}
+
+.mission-text{
+    background-color: black;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.mission-text h2{
+    margin-bottom: 10px;
+}
+
+/* Featured Tea */
+.featured-container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.featured-text{
+    margin: 40px auto;
+}
+
+.featured-text h2{
+    margin-bottom: 30px;
+}
+
+.box-container{
+    max-width: 1000px;
+    height: auto;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box-items img{
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+}
+
+.locations-container{
+    height: 500px;
+    max-width: 1200px;
+    background-image: url('images/locations\ background.jpeg');
+    background-position: center;
+    margin: 0 auto;
+}
+
+.locations-text{
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 30px;
+}
+
+.address-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.address{
+    display: inline-block;
+    background-color: black;
+    width: 300px;
+    height: 200px;
+    margin-right: 40px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.address h3, .address p{
+    padding-top: 15px;
+}
+
+/* Footer */
+.contact-container{
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.contact-container h5{
+    padding: 20px;
+}
+
+.copyright{
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
